@@ -1,0 +1,22 @@
+.home-page{
+    width: 100%;
+    height: 100%;
+    margin:20px;
+}
+
+.pets-list{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(240px,0.8fr));
+
+}
+
+.top .bottom{
+    margin:20px;
+}
+.add-pet-btn{
+    margin-top: 10px;
+}
